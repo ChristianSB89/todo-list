@@ -1,0 +1,92 @@
+body {
+    width: auto;
+    margin: 0 auto;
+    background: #995FA3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    background: #802392;
+    text-align: center;
+    padding: 5px 50px 10px 50px;
+    font-weight: bold;
+    color: #A0B9C6;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+}
+
+/* List */
+
+ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+li {
+    padding: 12px 8px 12px 40px;
+    margin: 4px auto;
+    background: #9A98B5;
+    font-size: 18px;
+    transition: 0,2s;
+    border: #802392 solid 2px;
+    width: 600px;
+}
+
+/* Input */
+
+input {
+    padding: 10px 20px;
+    margin: 10px;
+    width: 200px;
+    background: #eee;
+    border-radius: 20px 0 20px 0;
+}
+
+/* Buttons */
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    background:#A5F8D3;
+    color: #464555;
+    cursor: pointer;
+    transition: all 1ms;
+}
+
+#reset-btn {
+    color: #464555;
+    background: #ff4e4e;
+}
+
+.delete-btn {
+    color: #fff;
+    background: red;
+    border-radius: 20px 0 20px 0;
+    width: 100px;
+}
+
+/* Hover states */
+
+button:hover {
+    transform: scale(1.1);
+    color: #b6b3df;
+    background: rgb(79, 100, 80);
+    border-radius: 0 20px 0 20px;
+}
+
+#reset-btn:hover {
+    color: #c7c5ec;
+    background: #ac2020;
+}
+
+.delete-btn:hover {
+    background: rgb(148, 0, 0);
+    border-radius: 0 20px 0 20px;
+}
